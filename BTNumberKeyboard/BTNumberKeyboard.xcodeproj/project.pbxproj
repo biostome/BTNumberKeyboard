@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991A757423E162ED00E708A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A757323E162ED00E708A3 /* AppDelegate.m */; };
+		991A757723E162ED00E708A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A757623E162ED00E708A3 /* SceneDelegate.m */; };
+		991A757A23E162ED00E708A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A757923E162ED00E708A3 /* ViewController.m */; };
+		991A757D23E162ED00E708A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991A757B23E162ED00E708A3 /* Main.storyboard */; };
+		991A757F23E162EE00E708A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991A757E23E162EE00E708A3 /* Assets.xcassets */; };
+		991A758223E162EE00E708A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991A758023E162EE00E708A3 /* LaunchScreen.storyboard */; };
+		991A758523E162EE00E708A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A758423E162EE00E708A3 /* main.m */; };
+		991A758D23E1630900E708A3 /* BTNumberKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A758C23E1630900E708A3 /* BTNumberKeyboard.m */; };
+		991A759123E163AB00E708A3 /* BTKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A759023E163AB00E708A3 /* BTKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		991A756F23E162ED00E708A3 /* BTNumberKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTNumberKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991A757223E162ED00E708A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		991A757323E162ED00E708A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		991A757523E162ED00E708A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		991A757623E162ED00E708A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		991A757823E162ED00E708A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		991A757923E162ED00E708A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		991A757C23E162ED00E708A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991A757E23E162EE00E708A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		991A758123E162EE00E708A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		991A758323E162EE00E708A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991A758423E162EE00E708A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		991A758B23E1630900E708A3 /* BTNumberKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTNumberKeyboard.h; sourceTree = "<group>"; };
+		991A758C23E1630900E708A3 /* BTNumberKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTNumberKeyboard.m; sourceTree = "<group>"; };
+		991A758F23E163AB00E708A3 /* BTKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTKeyboard.h; sourceTree = "<group>"; };
+		991A759023E163AB00E708A3 /* BTKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTKeyboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991A756C23E162ED00E708A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991A756623E162ED00E708A3 = {
+			isa = PBXGroup;
+			children = (
+				991A757123E162ED00E708A3 /* BTNumberKeyboard */,
+				991A757023E162ED00E708A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991A757023E162ED00E708A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991A756F23E162ED00E708A3 /* BTNumberKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991A757123E162ED00E708A3 /* BTNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				991A758E23E1630D00E708A3 /* BTNumberKeyboard */,
+				991A757223E162ED00E708A3 /* AppDelegate.h */,
+				991A757323E162ED00E708A3 /* AppDelegate.m */,
+				991A757523E162ED00E708A3 /* SceneDelegate.h */,
+				991A757623E162ED00E708A3 /* SceneDelegate.m */,
+				991A757823E162ED00E708A3 /* ViewController.h */,
+				991A757923E162ED00E708A3 /* ViewController.m */,
+				991A757B23E162ED00E708A3 /* Main.storyboard */,
+				991A757E23E162EE00E708A3 /* Assets.xcassets */,
+				991A758023E162EE00E708A3 /* LaunchScreen.storyboard */,
+				991A758323E162EE00E708A3 /* Info.plist */,
+				991A758423E162EE00E708A3 /* main.m */,
+			);
+			path = BTNumberKeyboard;
+			sourceTree = "<group>";
+		};
+		991A758E23E1630D00E708A3 /* BTNumberKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				991A758B23E1630900E708A3 /* BTNumberKeyboard.h */,
+				991A758C23E1630900E708A3 /* BTNumberKeyboard.m */,
+				991A758F23E163AB00E708A3 /* BTKeyboard.h */,
+				991A759023E163AB00E708A3 /* BTKeyboard.m */,
+			);
+			path = BTNumberKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991A756E23E162ED00E708A3 /* BTNumberKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991A758823E162EE00E708A3 /* Build configuration list for PBXNativeTarget "BTNumberKeyboard" */;
+			buildPhases = (
+				991A756B23E162ED00E708A3 /* Sources */,
+				991A756C23E162ED00E708A3 /* Frameworks */,
+				991A756D23E162ED00E708A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTNumberKeyboard;
+			productName = BTNumberKeyboard;
+			productReference = 991A756F23E162ED00E708A3 /* BTNumberKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991A756723E162ED00E708A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = leishen;
+				TargetAttributes = {
+					991A756E23E162ED00E708A3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 991A756A23E162ED00E708A3 /* Build configuration list for PBXProject "BTNumberKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991A756623E162ED00E708A3;
+			productRefGroup = 991A757023E162ED00E708A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991A756E23E162ED00E708A3 /* BTNumberKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991A756D23E162ED00E708A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991A758223E162EE00E708A3 /* LaunchScreen.storyboard in Resources */,
+				991A757F23E162EE00E708A3 /* Assets.xcassets in Resources */,
+				991A757D23E162ED00E708A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991A756B23E162ED00E708A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991A758D23E1630900E708A3 /* BTNumberKeyboard.m in Sources */,
+				991A757A23E162ED00E708A3 /* ViewController.m in Sources */,
+				991A759123E163AB00E708A3 /* BTKeyboard.m in Sources */,
+				991A757423E162ED00E708A3 /* AppDelegate.m in Sources */,
+				991A758523E162EE00E708A3 /* main.m in Sources */,
+				991A757723E162ED00E708A3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		991A757B23E162ED00E708A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991A757C23E162ED00E708A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		991A758023E162EE00E708A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991A758123E162EE00E708A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991A758623E162EE00E708A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		991A758723E162EE00E708A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991A758923E162EE00E708A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BTNumberKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.BTNumberKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991A758A23E162EE00E708A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BTNumberKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.BTNumberKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991A756A23E162ED00E708A3 /* Build configuration list for PBXProject "BTNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991A758623E162EE00E708A3 /* Debug */,
+				991A758723E162EE00E708A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991A758823E162EE00E708A3 /* Build configuration list for PBXNativeTarget "BTNumberKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991A758923E162EE00E708A3 /* Debug */,
+				991A758A23E162EE00E708A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991A756723E162ED00E708A3 /* Project object */;
+}
